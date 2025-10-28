@@ -1,6 +1,6 @@
-API_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL = "openai/gpt-4.1"
-API_KEY = "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"
+API_URL = "Your Base URL of Model"
+MODEL = "Your LLM Model"
+API_KEY = "Your Api Key"
 HEADERS = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
 MAX_TOKENS = 300
 USER_FILE = "assets/user_data.json"
