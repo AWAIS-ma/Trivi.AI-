@@ -5,7 +5,7 @@ def chat(messages: list) -> str:
     payload = {"model": MODEL, "messages": messages, "max_tokens": MAX_TOKENS}
     try:
         r = requests.post(API_URL, headers=HEADERS, json=payload, timeout=30)
-        r.raise_for_status()
+        r.raise_for_status() 
         return r.json()["choices"][0]["message"]["content"]
     except Exception as e:
         return f"__ERROR__:{e}"
