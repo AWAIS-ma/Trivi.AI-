@@ -1,4 +1,4 @@
-API_URL = "Your Base URL of Model"
+API_URL = "Base URL of your Model"
 MODEL = "Your LLM Model"
 API_KEY = "Your Api Key"
 HEADERS = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
