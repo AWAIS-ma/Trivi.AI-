@@ -1,0 +1,17 @@
+{
+    "awais@gmail.com": {
+        "name": "awais",
+        "password": "qwer",
+        "xp": 350
+    },
+    "sara@gmail.com": {
+        "name": "sara",
+        "password": "aqaq",
+        "xp": 0
+    },
+    "sharjeel@gmail.com": {
+        "name": "sharjeel",
+        "password": "awais",
+        "xp": 50
+    }
+}
